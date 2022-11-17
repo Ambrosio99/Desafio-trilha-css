@@ -1,4 +1,8 @@
 @import "/assets/reset.css";
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+}
 
 /* banner */
 
@@ -8,7 +12,7 @@
       rgba(49, 168, 221, 0.2),
       rgba(0, 0, 0, 0.6)
     ),
-    url(/assets/images/banner.png);
+    url(./assets/images/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 70px 0px 70px 0px;
@@ -118,7 +122,7 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  background-image: url(/assets/images/woman-code.png);
+  background-image: url(./assets/images/woman-code.png);
   background-attachment: fixed;
   background-size: cover;
   object-fit: cover;
